@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bibliothèque Virtuelle</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="header">
+    <div class="header__inner">
+      <div class="header__brand">
+        <span class="header__icon">📚</span>
+        <h1 class="header__title">Gestion de Bibliothèque</h1>
+      </div>
+      <span class="badge" id="compteurLivres">0 livre(s)</span>
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Recherche -->
+    <section class="search-section">
+      <div class="search-wrap">
+        <span class="search-icon">🔍</span>
+        <input type="text" id="searchInput" class="search-input"
+          placeholder="Rechercher " autocomplete="off" />
+        <button class="search-clear" id="searchClear" title="Effacer">✕</button>
+      </div>
+    </section>
+
+    <!-- Tableau -->
+    <section class="table-section">
+      <div class="table-header">
+        <h2 class="section-title">Catalogue des livres</h2>
+      </div>
+      <div class="table-wrapper">
+        <table class="books-table">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th class="sortable" data-col="titre">Titre <span class="sort-icon"></span></th>
+              <th class="sortable" data-col="auteur">Auteur <span class="sort-icon"></span></th>
+              <th class="sortable" data-col="annee">Année <span class="sort-icon"></span></th>
+              <th class="sortable" data-col="prix">Prix (FCFA) <span class="sort-icon"></span></th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody id="booksTableBody"></tbody>
+        </table>
+        <div class="empty-state" id="emptyState" style="display:none;">
+          <span class="empty-icon">📭</span>
+          <p>Aucun livre trouvé</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Formulaire -->
+    <section class="form-section">
+      <div class="form-header">
+        <h2 class="section-title" id="formTitle">Ajouter un livre</h2>
+        <button class="btn btn--ghost" id="annulerModifBtn" style="display:none;">Annuler</button>
+      </div>
+      <form class="book-form" id="bookForm" novalidate>
+        <input type="hidden" id="editIndex" value="-1" />
+        <div class="form-grid">
+          <div class="form-group">
+            <label for="inputTitre">Titre *</label>
+            <input type="text" id="inputTitre" placeholder="Titre du livre" />
+            <span class="form-error" id="errTitre"></span>
+          </div>
+          <div class="form-group">
+            <label for="inputAuteur">Auteur *</label>
+            <input type="text" id="inputAuteur" placeholder="Nom de l'auteur" />
+            <span class="form-error" id="errAuteur"></span>
+          </div>
+          <div class="form-group">
+            <label for="inputAnnee">Année *</label>
+            <input type="number" id="inputAnnee" placeholder="Ex: 2024" min="1800" max="2099" />
+            <span class="form-error" id="errAnnee"></span>
+          </div>
+          <div class="form-group">
+            <label for="inputPrix">Prix (FCFA) *</label>
+            <input type="number" id="inputPrix" placeholder="Ex: 5000" min="0" />
+            <span class="form-error" id="errPrix"></span>
+          </div>
+          <div class="form-group form-group--full">
+            <label for="inputCouverture">image de couverture</label>
+            <input type="url" id="inputCouverture" placeholder="images/nom.jpg" />
+          </div>
+          <div class="form-group form-group--full">
+            <label for="inputDescription">Description</label>
+            <textarea id="inputDescription" placeholder="Brève description du livre..." rows="3"></textarea>
+          </div>
+        </div>
+        <div class="form-actions">
+          <button type="submit" class="btn btn--primary">
+            <span id="submitBtnText">AJOUTER</span>
+          </button>
+        </div>
+      </form>
+    </section>
+
+  </main>
+
+  <!-- Modal -->
+  <div class="modal-overlay" id="modalOverlay">
+    <div class="modal">
+      <button class="modal__close" id="modalClose">✕</button>
+      <div class="modal__body" id="modalBody"></div>
+    </div>
+  </div>
+
+  <!-- Toast -->
+  <div class="toast" id="toast"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>

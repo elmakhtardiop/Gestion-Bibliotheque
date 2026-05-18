@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bibliotheque>
+
+  <livre id="1">
+    <titre>JavaScript Avancé</titre>
+    <auteur>Cyril Ichti</auteur>
+    <annee>2017</annee>
+    <prix>7500</prix>
+    <couverture>images/js-avance.jpg</couverture>
+    <description>Franchissez le cap des modules UMD et des tests unitaires automatisés...</description>
+  </livre>
+
+  <livre id="2">
+    <titre>Eloquent JavaScript</titre>
+    <auteur>Marijn Haverbeke</auteur>
+    <annee>2022</annee>
+    <prix>7000</prix>
+    <couverture>images/dom.jpg</couverture>
+    <description>Livre incontournable pour apprendre JavaScript en profondeur avec des exemples pratiques et des exercices.</description>
+  </livre>
+
+  <livre id="3">
+    <titre>Une si longue lettre</titre>
+    <auteur>Mariama Bâ</auteur>
+    <annee>1979</annee>
+    <prix>5000</prix>
+    <couverture>images/usll.jpg</couverture>
+    <description>Roman épistolaire emblématique de la littérature sénégalaise abordant la condition féminine, le mariage et la société.</description>
+  </livre>
+
+  <livre id="4">
+    <titre>Une vie de boy</titre>
+    <auteur>Ferdinand Oyono</auteur>
+    <annee>1956</annee>
+    <prix>4500</prix>
+    <couverture>images/uvdb.jpeg</couverture>
+    <description>Roman critique sur la colonisation à travers le regard d’un jeune domestique africain.</description>
+  </livre>
+
+</bibliotheque>
