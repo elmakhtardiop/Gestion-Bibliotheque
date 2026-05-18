@@ -96,6 +96,8 @@ Formats acceptés : `.jpg` `.jpeg` `.png` `.webp`
 
 ## 👤 Auteurs
 
+**Groupe 1**:
+
 **Anta GAYE**
 
 **El Makhtar DIOP**  
