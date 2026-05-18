@@ -4,6 +4,7 @@ Application web interactive de gestion de bibliothèque développée en **JavaSc
 
 > Projet d'évaluation — Module **JavaScript Avancé**  
 > Encadrant : **Mouhamed Moustapha Diouf**
+> Master 1 - Semestre 2
 
 ---
 
@@ -45,7 +46,7 @@ gestion-bibliotheque/
 
 ---
 
-## onctionnalités
+## Fonctionnalités
 
 | Fonctionnalité | Description |
 |---|---|
@@ -93,7 +94,7 @@ Formats acceptés : `.jpg` `.jpeg` `.png` `.webp`
 
 ---
 
-## 👤 Auteur
+## 👤 Auteurs
 
 **Anta GAYE**
 
@@ -112,4 +113,4 @@ Formats acceptés : `.jpg` `.jpeg` `.png` `.webp`
 
 ## 📄 Licence
 
-Projet académique — Université Virtuelle du Sénégal
+Projet académique - Université Virtuelle du Sénégal
