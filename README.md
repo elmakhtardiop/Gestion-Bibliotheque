@@ -1,4 +1,4 @@
-# 📚 Gestion de Bibliothèqu
+# 📚 Gestion de Bibliothèque
 
 Application web interactive de gestion de bibliothèque développée en **JavaScript**, sans aucun framework ni base de données.
 
@@ -96,10 +96,15 @@ Formats acceptés : `.jpg` `.jpeg` `.png` `.webp`
 ## 👤 Auteur
 
 **Anta GAYE**
+
 **El Makhtar DIOP**  
+
 **Pape Gora THIAM**
+
 **Cheikh Ahmadou Bamba FALL**
+
 **Abdou KEBE**
+
 **Mouhamadou Moustapha SALL**
 
 
