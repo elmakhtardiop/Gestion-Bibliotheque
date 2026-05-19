@@ -8,6 +8,10 @@ Application web interactive de gestion de bibliothèque développée en **JavaSc
 
 ---
 
+## 🌐 Démonstration en ligne
+https://elmakhtardiop.github.io/Gestion-Bibliotheque/
+
+
 ## 🖥️ Aperçu
 
 L'application permet de gérer un catalogue de livres directement dans le navigateur :
