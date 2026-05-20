@@ -4,6 +4,7 @@ Application web interactive de gestion de bibliothèque développée en **JavaSc
 
 > Projet d'évaluation — Module **JavaScript Avancé**  
 > Encadrant : **Mouhamed Moustapha Diouf**
+> 
 > Master 1 - Semestre 2
 
 ---
@@ -11,6 +12,7 @@ Application web interactive de gestion de bibliothèque développée en **JavaSc
 ## 🌐 Démonstration en ligne
 https://elmakhtardiop.github.io/Gestion-Bibliotheque/
 
+---
 
 ## 🖥️ Aperçu
 
@@ -30,7 +32,7 @@ gestion-bibliotheque/
 ├── index.html       → Structure HTML5 de l'application
 ├── style.css        → Design responsive (palette Ardoise Moderne)
 ├── script.js        → Logique complète (DOM, CRUD, XHR, événements)
-├── books.xml        → Données de démarrage (9 livres)
+├── books.xml        → Données de démarrage (4 livres)
 └── images/
     ├── js-avance.jpg
     ├── dom.jpg
