@@ -3,8 +3,7 @@
 Application web interactive de gestion de bibliothèque développée en **JavaScript**, sans aucun framework ni base de données.
 
 > Projet d'évaluation — Module **JavaScript Avancé**  
-> Encadrant : **Mouhamed Moustapha Diouf**
-> 
+> Encadrant : **Mouhamed Moustapha Diouf** 
 > Master 1 - Semestre 2
 
 ---
@@ -119,6 +118,4 @@ Formats acceptés : `.jpg` `.jpeg` `.png` `.webp`
 
 ---
 
-## 📄 Licence
-
-Projet académique - Université Virtuelle du Sénégal
+**Projet académique - Université Numérique Cheikh Hamidou Kane**
