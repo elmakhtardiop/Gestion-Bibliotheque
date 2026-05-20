@@ -80,7 +80,7 @@ gestion-bibliotheque/
 
 | # | Titre | Auteur | Année |
 |---|---|---|---|
-| 1 | JavaScript Avancé | Tuteur Mouhamed M. Diouf | 2020 |
+| 1 | JavaScript Avancé | Cyril Ichti | 2020 |
 | 2 | Une si longue lettre | Mariama Bâ | 1979 |
 | 3 | Une vie de boy | Ferdinand Oyono | 1956 |
 | 4 | Eloquent JavaScript | Marijn Haverbeke | 2018 |
